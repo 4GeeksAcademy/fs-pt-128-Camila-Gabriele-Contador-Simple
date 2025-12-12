@@ -9,3 +9,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Cookie&family=Mynerve&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 50px;
+    
+}
+.icono {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.end {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.mid {
+    border-radius: 0px;
+}
+.btn{
+    width: 100px;
+    height: 200px;
+    font-family: "Lora", serif;
+    font-size: 45px;
+}
