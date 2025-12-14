@@ -10,19 +10,23 @@
 
 */
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Cookie&family=Mynerve&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Grid+Single:wght@100..900&family=Cookie&family=Lora:ital,wght@0,400..700;1,400..700&family=Mynerve&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&family=Yellowtail&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.mexicogp.mx/wp-content/uploads/2024/06/raceweek_07_slider_monaco_desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
 }
 
-.btn-group{
+.btn-group {
     display: flex;
     justify-content: center;
     margin-top: 80px;
     padding: 50px;
-    
+
 }
+
 .icono {
     border-radius: 20px 0px 0px 20px;
 }
@@ -34,9 +38,15 @@
 .mid {
     border-radius: 0px;
 }
-.btn{
+
+.btn {
     width: 100px;
     height: 200px;
     font-family: "Lora", serif;
     font-size: 45px;
+}
+
+h1, h2{
+    font-family: "Archivo Black", sans-serif;
+    
 }
